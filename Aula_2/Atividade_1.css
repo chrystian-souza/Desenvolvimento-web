@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.caixa {
+
+    text-align: center;
+    margin: 10px auto;
+    border: 5px solid rgb(7, 7, 7);
+    background-color: rgb(212, 223, 149);
+    color: brown;
+    width: 400px;
+    height: 250px;
+
+
+}
+
+.imagem{
+
+   border-radius: 50%;
+    margin: 10px auto;
+    height: 100px;
+    width: 100px
+  
+}
+
+.nome{
+
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+
+
+}
+
+.funcao{
+
+    color: rgb(13, 9, 240);
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.habilidades{
+
+    
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.verificar{
+
+    color: blue;
+    text-transform: capitalize;
+    text-align: center;
+}

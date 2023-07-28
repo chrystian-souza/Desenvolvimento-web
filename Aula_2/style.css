@@ -1,0 +1,44 @@
+/* Este bloco abaixo é universal, configuração inicial para zerar as propriedades do navegador */
+
+*{
+    margin: 0;                 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .bloco > p{
+    color: rgb(241, 241, 11) ;
+}
+
+p{
+    color: rgb(129, 7, 99);
+}
+
+p {
+    color: rgb(7, 248, 107);
+    border: 5px solid yellow;
+    font-family: 'Segoe UI' sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    background:linear-gradient(to left, rgb(32, 0, 68), rgb(216, 49, 20));
+    box-shadow: 20px 20px 30px black;
+    border-radius: 10px 2px 10px 2px;
+    
+} */
+
+.bloco {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
