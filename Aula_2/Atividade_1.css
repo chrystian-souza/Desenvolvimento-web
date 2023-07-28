@@ -14,6 +14,7 @@
     color: brown;
     width: 400px;
     height: 250px;
+    background:linear-gradient(to left, rgb(32, 0, 68), rgb(216, 49, 20));
 
 }
 
@@ -57,7 +58,7 @@
 
 .verificar{
 
-    color: blue;
+    color: rgb(13, 9, 240);
     text-transform: capitalize;
     text-align: center;
 }
