@@ -4,23 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+
+    background-color: black;
+
+}
 
 .caixa {
 
     text-align: center;
     margin: 10px auto;
-    border: 5px solid rgb(7, 7, 7);
+    border: 5px solid rgb(151, 82, 3);
     background-color: rgb(212, 223, 149);
     color: brown;
     width: 400px;
     height: 250px;
-    background:linear-gradient(to left, rgb(32, 0, 68), rgb(216, 49, 20));
+    background:linear-gradient(to left, rgb(8, 8, 8), rgb(168, 83, 2));
+    border-radius: 12px;
 
 }
 
 .imagem{
 
-   border-radius: 50%;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 50%;
     margin: 10px auto;
     height: 100px;
     width: 100px
@@ -61,4 +68,5 @@
     color: rgb(13, 9, 240);
     text-transform: capitalize;
     text-align: center;
+    text-decoration: none;
 }
