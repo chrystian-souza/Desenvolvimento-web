@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+}
+
+.container {
+
+  padding: 10px;
+  
+
+}
+
+.card1 {
+
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(255, 253, 253);
+    margin: 50px;
+    border: 10px solid rgb(255, 253, 253);
+    height: 650px;
+    width: 320px;
+
+}
+
+.card2 {
+
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(255, 253, 253);
+    margin: 50px;
+    border: 10px solid rgb(255, 253, 253);
+    height: 650px;
+    width: 320px;
+    
+    
+}
+
+.botao {
+
+     position: relative; 
+    padding: 10px;
+    /* bottom: 50px; */
+    /* left: 50px; */
+    bottom: 30px;
+    padding-left: 60px;
+    
+
+}
+
+.descricao {
+
+    padding: 0 ;
+    text-align: justify;
+    margin: 20px;
+}
+
+.fa-regular fa-star{
+
+    color: aqua;
+    background-color: red;
+    height: 50px;
+}

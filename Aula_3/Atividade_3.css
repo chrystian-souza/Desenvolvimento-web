@@ -4,14 +4,31 @@
     box-sizing: border-box;
  }
 
+
+ .sejabemvindo{
+
+   
+   text-align: justify;
+   padding: 20px;
+
+   
+ }
+
+ .asuagaleria {
+
+   position: relative;
+   text-align: end;
+   
+ }
  .nav{
 
     position: absolute;
-    background-color: blue;
+    background-color: rgb(38, 52, 247);
     width: 1620px;
     height: 70px;
     
  }
+
 
  .box{
 
@@ -27,20 +44,18 @@
 
     text-transform: uppercase;
     text-align: center;
+    
+
  }
 
  .display {
 
-    display: inline-block;
+    display: block;
     width: 510px;;
     margin: 40px;
     padding: 50px;
     border: 5px solid rgb(7, 7, 7);
 
     
- }
- .display > div {
-    display: inline-block;
-    margin-right: 20px;
  }
 
