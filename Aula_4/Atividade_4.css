@@ -63,6 +63,18 @@ body{
 .fa-regular fa-star{
 
     color: aqua;
-    background-color: red;
+    background-color: rgb(184, 136, 3);
     height: 50px;
+}
+
+.fa-solid{
+
+position: relative;
+color: rgb(12, 12, 12);
+right: 40px;
+font-size: 20px;
+
+
+
+
 }
