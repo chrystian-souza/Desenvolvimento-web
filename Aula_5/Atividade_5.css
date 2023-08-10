@@ -7,13 +7,18 @@
 
 .container {
 
+    
     width: 100%;
     height: 500px;
     background-color: rgb(248, 248, 248);
     max-width: 500px;
     margin: 20px auto;
-    border: 5px solid rgb(12, 12, 12);
+    border: 3px solid rgb(12, 12, 12);
+    padding: 50px;
+    position: relative;
     
+    
+     
    
 
 }
@@ -21,31 +26,41 @@
 .container2 {
 
     
-    position: relative;
-    background-color: rgb(32, 163, 163);
-    left: 250px;
-    bottom: 247px;
+    position: absolute;
+    background:linear-gradient(to right, rgb(32, 163, 163), rgba(10, 10, 10, 0.89));
+    left: 247px;
+    /* bottom: 247px; */
+    top: 0;
     width: 50%;
-    height: 490px;
+    height: 494px;
     text-align: center;
+    vertical-align: top;
     
+   
     
-    
+}
+
+.container2 > button {
+
+    width: 200px;
+    padding: 8px;
 }
 
 .botao {
 
     position: relative;
     top: 60px;
-    right: 160px;
-    padding: 15px ;
-    background-color: chocolate;
+    right: 175px;
+    padding: 10px ;
+    background-color: rgb(240, 78, 3);
+    color: aliceblue;
 
 }
 
 .iniciar {
 
     color: azure;
+    
    
 }
 
@@ -54,7 +69,7 @@
     position: relative;
     background-color: rgb(5, 5, 248);
     color: aliceblue;
-    padding: 7px;
+   padding: 8px 55px 8px 55PX;
     border-top-left-radius: 10px;
     top: 100px;
    
@@ -66,9 +81,9 @@
 .twitter {
 
     position: relative;
-    background-color: rgb(9, 177, 228);
+    background-color: rgb(58, 100, 236);
     color: aliceblue;
-    padding: 7px;
+    padding: 8px 55px 8px 55PX;
     border-top-left-radius: 10px;
     top: 200px;
     
@@ -79,9 +94,21 @@
     position: relative;
     background-color: rgb(87, 223, 233);
     color: aliceblue;
-    padding: 7px;
+    padding: 8px 55px 8px 55PX;
     border-top-left-radius: 10px;
     top: 300px;
+    
+}
+
+.registrarsetxt {
+
+    position:absolute;
+    top: 0;
+    left: 75px;
+    
+    
+
+    
     
 }
     
