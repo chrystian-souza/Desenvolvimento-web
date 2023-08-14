@@ -30,16 +30,35 @@
 .botoes {
 
   display: flex;
-  gap: 15px;
-  position: relative;
-  color: white;
+  gap: 15px ;
+  color: rgb(240, 235, 235);
   border: transparent;
   background-color: transparent;
-  color: white;
+  color: rgba(180, 174, 174, 0.897);
   height: 20px;
   
 
 
+}
+
+.botao {
+
+  background-color: transparent;
+  border: none;
+}
+
+/* .botoes:hover {
+
+  color: rgb(27, 218, 218);
+  outline: invert red;
+  transform: scale(1.2);
+
+} */
+.botao:hover {
+
+  color: red;
+  transform: scale(1.2);
+ 
 }
 
 table {
@@ -79,8 +98,9 @@ table {
   .informaçoes:hover {
     max-width: none; 
     white-space: normal; 
-    overflow: visible;
-    text-overflow: initial;}
+    overflow: hidden;
+    text-overflow: initial;
+  }
   
 
 @media(max-width:600px) {
