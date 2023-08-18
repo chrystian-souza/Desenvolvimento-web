@@ -22,6 +22,7 @@
 
     width: 100px;
     height: 50px;
+  
      
 
 }
@@ -56,15 +57,14 @@
 
 }
 
-.prod1 {
+.prod {
 
    
     background-color: #093974;
-    width: 50px;
+    width: 20px;
     height: 10px;
     padding: 100px;
     border-radius: 10px;
-    border: 1px solid rgb(235, 11, 11);
     margin: 10px;
     position: relative;
    
@@ -78,27 +78,16 @@
     width: 200px;
     top:0;
     left: 0;
-    position: absolute;
     border-radius: 10px;
-    
 
-   
-   
-   
-    
 }
 
-/* .produtos {
+img {
 
-    height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 500px;
-
-} */
- 
-.produtos {
+    width: 100%;
+    height: 100%;
+}
+.pag-inicial {
 
     
     background-color: #ddd;
@@ -177,13 +166,25 @@ footer {
 
  .about {
 
-    height: 100vh;
+    height: 300vh;
 }
 
-.contact {
+.celulares {
 
     height: 100vh;
 }  
+
+.eletrodomesticos {
+
+    height: 100vh;
+
+}
+
+.moveis {
+
+    height: 100vh;
+}
+
 
 .paginacao {
 
