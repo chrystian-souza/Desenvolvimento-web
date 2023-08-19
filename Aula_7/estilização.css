@@ -20,8 +20,8 @@
 
 .logo > img {
 
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 70px;
   
      
 
@@ -82,11 +82,7 @@
 
 }
 
-img {
 
-    width: 100%;
-    height: 100%;
-}
 .pag-inicial {
 
     
@@ -99,9 +95,31 @@ img {
     justify-content: center;
     padding: 100PX;
     flex-wrap: wrap;
+    text-align: justify;
     
    
 }
+
+/*titulo-ofertas {
+
+    position: absolute;
+    text-align: center;
+    top: 100px;
+}
+
+.titulo-cel {
+    
+    position: absolute;
+    text-align: center;
+
+   
+   
+    background-color: #f5f831;
+   
+
+}
+*/
+
 
  @media(max-width:640px) {
 
@@ -172,17 +190,44 @@ footer {
 .celulares {
 
     height: 100vh;
+    background-color: #dddd;
+    width: 90%;
+    max-width: 2000px;
+    margin: 50px auto;
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+    padding: 100PX;
+    flex-wrap: wrap;
 }  
 
 .eletrodomesticos {
 
     height: 100vh;
+    background-color: #dddd;
+    width: 90%;
+    max-width: 2000px;
+    margin: 50px auto;
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+    padding: 100PX;
+    flex-wrap: wrap;
 
 }
 
 .moveis {
 
     height: 100vh;
+    background-color: #ddd;
+    width: 90%;
+    max-width: 2000px;
+    margin: 50px auto;
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+    padding: 100PX;
+    flex-wrap: wrap;
 }
 
 
