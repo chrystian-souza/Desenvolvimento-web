@@ -23,14 +23,12 @@
     width: 200px;
     height: 70px;
   
-     
-
 }
 
 .nav-menu {
 
     display: flex;
-    gap: 30px; /*vai no elemento pai, ele da um espaçamento */
+    gap: 30px;
     justify-content: center;
 }
 
@@ -90,55 +88,56 @@
     width: 90%;
     max-width: 2000px;
     margin: 50px auto;
-    border-radius: 10PX;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    padding: 100PX;
+    padding: 100px;
     flex-wrap: wrap;
     text-align: justify;
     
    
 }
 
-/*titulo-ofertas {
-
-    position: absolute;
-    text-align: center;
-    top: 100px;
-}
-
-.titulo-cel {
-    
-    position: absolute;
-    text-align: center;
-
-   
-   
-    background-color: #f5f831;
-   
-
-}
-*/
-
-
  @media(max-width:640px) {
 
-    .bars {
-        display: flex;
-      
-    }
 
     .nav-item {
 
         display: none;
+
     }
+    
+    .prod {
+
+        
+        width: 20px;
+        height: 10px;
+        padding: 100px;
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+       
+    }
+    
+    .img {
+
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top:0;
+        left: 0;
+        border-radius: 10px;
+    
+    }
+
+   
 }
 
  .table { 
 
     background-color: #ddd;
     width: 90%;
-    max-width: 800px;
+    max-width: 2000px;
     margin: 50px auto;
     text-align: left;
     border-collapse: collapse;
@@ -184,26 +183,16 @@ footer {
 
  .about {
 
-    height: 300vh;
-}
-
-.celulares {
-
-    height: 100vh;
+    height: 50vh;
     background-color: #dddd;
-    width: 90%;
-    max-width: 2000px;
     margin: 50px auto;
-    border-radius: 10PX;
-    display: flex;
-    justify-content: center;
-    padding: 100PX;
-    flex-wrap: wrap;
-}  
-
+    width: 90%;
+    border-radius: 10px;
+}
+  
 .eletrodomesticos {
 
-    height: 100vh;
+    
     background-color: #dddd;
     width: 90%;
     max-width: 2000px;
@@ -213,13 +202,13 @@ footer {
     justify-content: center;
     padding: 100PX;
     flex-wrap: wrap;
-
+    
 }
 
 .moveis {
 
-    height: 100vh;
-    background-color: #ddd;
+    
+    background-color: #dddd;
     width: 90%;
     max-width: 2000px;
     margin: 50px auto;
@@ -228,6 +217,15 @@ footer {
     justify-content: center;
     padding: 100PX;
     flex-wrap: wrap;
+
+}
+h1 {
+
+    position: absolute;
+    text-align: center;
+    margin: -100px auto;
+    color: rgb(170, 16, 5);
+   
 }
 
 
@@ -252,5 +250,79 @@ footer {
     color: white;
     border: 1px solid white;
 }
+.bi-arrow-up-circle-fill {
 
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 60px;
+    left: 1830px;
+    color: #080808
+
+}
+
+.bi-arrow-up-circle-fill:hover {
+
+    color:rgb(170, 16, 5);
+    transition: .5s;
+    transition-property: all;
+   
+}
+
+.dashboard {
+
+    background-color: #ddd;
+    width: 90%;
+    max-width: 2000px;
+    margin: 50px auto;
+    border-radius: 10PX;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.dash1 {
+
+    background-color: #0E0E76;
+    width: 1500px;
+    height: 10px;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.dash2 {
+
+    background-color: #8C0073;
+    width: 1500px;
+    height: 10px;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.dash3 {
+
+    background-color: #D02560;
+    width: 1500px;
+    height: 10px;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.dash4 {
+
+    background-color: #F76D4D;
+    width: 1500px;
+    height: 10px;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
 
