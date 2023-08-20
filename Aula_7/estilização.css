@@ -15,6 +15,7 @@
     justify-content:space-between;
     align-items: center;
     padding: 10px 20px;
+    
 
 }
 
@@ -29,7 +30,15 @@
 
     display: flex;
     gap: 30px;
-    justify-content: center;
+    
+}
+
+.nav-item {
+
+    
+    position: relative;
+    right: 450px;
+   
 }
 
 .nav-link {
@@ -45,6 +54,39 @@
     padding: 10px 18px;
     background-color: rgb(170, 16, 5);
     border-radius: 12px 0 12px 0;
+}
+
+.icones-nav {
+
+   position: absolute;
+   
+  
+}
+
+.icone-nav {
+
+    background-color: rgb(145, 255, 0);
+    color: white;
+    right: 50px;
+    padding: 5px;
+    
+
+
+}
+.pag-inicial {
+
+    
+    background-color: #ddd;
+    width: 90%;
+    max-width: 2000px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    flex-wrap: wrap;
+    font-size: 30px;
+    
 }
 
 .prod {
@@ -70,24 +112,6 @@
     left: 0;
     border-radius: 10px;
 
-}
-
-
-.pag-inicial {
-
-    
-    background-color: #ddd;
-    width: 90%;
-    max-width: 2000px;
-    margin: 50px auto;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-    flex-wrap: wrap;
-    font-size: 30px;
-    
-   
 }
 
 .about {
@@ -217,9 +241,9 @@ footer {
 h1 {
 
     position: absolute;
-    text-align: center;
+    text-align: end;
     margin: -100px auto;
-    color: rgb(170, 16, 5);
+    
    
 }
 
@@ -227,10 +251,11 @@ h1 {
 
     font-size: 40px;
     color: #3e5066;
+    position: absolute;
+    margin: 20px;
+    top: 80px;
     
 }
-
-
 
 .bi-arrow-up-circle-fill {
 
@@ -238,7 +263,7 @@ h1 {
     width: 50px;
     height: 50px;
     bottom: 60px;
-    left: 1830px;
+    right: 15px;
     color: #080808
 
 }
@@ -257,79 +282,87 @@ h1 {
     width: 90%;
     max-width: 2000px;
     margin: 50px auto;
-    border-radius: 10PX;
+    border-radius: 10px;
     padding: 100px;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .dash1 {
 
     background-color: #0E0E76;
-    width: 1500px;
+    width: 20px;
     height: 10px;
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
-    display:flex;
-    justify-content: center
-    
+    position: relative;
 }
 
 .dash2 {
 
-    background-color: #8C0073;
-    width: 1500px;
+   background-color: #8C0073;
+    width: 20px;
     height: 10px;
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
-    display:flex;
-    justify-content: center
+    position: relative;
     
 }
 
 .dash3 {
 
     background-color: #D02560;
-    width: 1500px;
+    width: 20px;
     height: 10px;
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
-    display:flex;
-    justify-content: center
+    position: relative;
     
+
 }
 
 .dash4 {
 
     background-color: #F76D4D;
-    width: 1500px;
+    width: 20px;
     height: 10px;
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
-    display:flex;
-    justify-content: center;
-    
-    
+    position: relative;
+
 }
+
 
 .dash-textoh1 {
 
+    font-size: 30px;
     color: white;
-    font-size: 60px;
-    
+    position: absolute;
+    top: 20px;
+    right: 25px ; 
 }
 
 .dash-textoh3 {
 
-    color: white;
     font-size: 20px;
-    background-color: rgb(226, 13, 13);
+    color: white;
+    position: absolute;
+    left: 15%; 
     
+}
+
+.bars {
+
+    display: none;
+    color: white;
+    font-size: 22px;
 }
 
 @media(max-width:640px) {
@@ -341,50 +374,23 @@ h1 {
 
     }
     
-    .prod {
-
-        
-        width: 20px;
-        height: 10px;
-        padding: 100px;
-        border-radius: 10px;
-        margin: 10px;
-        position: relative;
-       
-    }
-    
-    .img {
-
-        position: absolute;
-        height: 200px;
-        width: 200px;
-        top:0;
-        left: 0;
-        border-radius: 10px;
-    
-    }
-}
-
-@media(max-width:640px) {
-
     .dashboard {
 
         display: block;
-        height: ;
-    
     }
 
     .dash1, .dash2, .dash3, .dash4 {
 
-        display: flex;
-        justify-content: center;
-        width: 0;
-        font-size: 30px;
+       position: relative;
+       text-align: center;
     }
     .dash-textoh1 {
 
         color: white;
         font-size: 40px;
+        text-align: center;
+       
+       
         
     }
     .dash-textoh3 {
@@ -400,4 +406,14 @@ h1 {
         width: 100%;
         
     }
+    .bars {
+
+        display: flex;
+    }
+
+    .bi-arrow-up-circle-fill {
+
+       display: none;
+    }
 }
+
