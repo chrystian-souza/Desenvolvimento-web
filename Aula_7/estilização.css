@@ -133,16 +133,27 @@
    
 }
 
+.about {
+
+    height: 60vh;
+    background-color: #dddd;
+    margin: 50px auto;
+    width: 90%;
+    border-radius: 10px;
+   
+    
+   
+}
  .table { 
 
     background-color: #ddd;
-    width: 90%;
+    width: 100%;
     max-width: 2000px;
-    margin: 50px auto;
+    margin: 0 auto;
     text-align: left;
     border-collapse: collapse;
     border-radius: 6px 6px 0 0;
-    overflow: hidden;
+    position: relative;
 
 }
 
@@ -156,6 +167,7 @@
 .table > tbody > tr > td {
 
     padding: 16px 0;
+    
 }
 
 .table > tbody > tr:nth-of-type(even){
@@ -166,6 +178,25 @@ tr:hover {
 
     opacity: 0.9;
     cursor: pointer;
+}
+
+.paginacao {
+
+    
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 50px auto;
+    
+   
+}
+
+.pag  {
+
+    background-color:  #3e5066;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid rgb(10, 10, 10);
 }
 
 
@@ -181,14 +212,7 @@ footer {
     bottom: 0;
 }
 
- .about {
 
-    height: 50vh;
-    background-color: #dddd;
-    margin: 50px auto;
-    width: 90%;
-    border-radius: 10px;
-}
   
 .eletrodomesticos {
 
@@ -228,28 +252,15 @@ h1 {
    
 }
 
+.titulo-dash {
 
-.paginacao {
-
-    background-color: #3e5066;
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-
+    font-size: 40px;
+    color: #3e5066;
     
 }
 
-.pag  {
 
-    background-color: #3e5066;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    color: white;
-    border: 1px solid white;
-}
+
 .bi-arrow-up-circle-fill {
 
     position: fixed;
@@ -290,6 +301,8 @@ h1 {
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
+    display:flex;
+    justify-content: center
     
 }
 
@@ -301,6 +314,8 @@ h1 {
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
+    display:flex;
+    justify-content: center
     
 }
 
@@ -312,6 +327,8 @@ h1 {
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
+    display:flex;
+    justify-content: center
     
 }
 
@@ -323,6 +340,23 @@ h1 {
     padding: 100px;
     border-radius: 10px;
     margin: 10px;
+    display:flex;
+    justify-content: center
+    ;
     
 }
 
+.dash-textoh1 {
+
+    color: white;
+    font-size: 60px;
+    
+}
+
+.dash-textoh3 {
+
+    color: white;
+    font-size: 20px;
+    background-color: rgb(226, 13, 13);
+    
+}
