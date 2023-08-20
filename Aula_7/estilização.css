@@ -47,14 +47,6 @@
     border-radius: 12px 0 12px 0;
 }
 
-.bars {
-
-    display: none;
-    color: white;
-    font-size: 22px;
-
-}
-
 .prod {
 
    
@@ -98,44 +90,9 @@
    
 }
 
- @media(max-width:640px) {
-
-
-    .nav-item {
-
-        display: none;
-
-    }
-    
-    .prod {
-
-        
-        width: 20px;
-        height: 10px;
-        padding: 100px;
-        border-radius: 10px;
-        margin: 10px;
-        position: relative;
-       
-    }
-    
-    .img {
-
-        position: absolute;
-        height: 200px;
-        width: 200px;
-        top:0;
-        left: 0;
-        border-radius: 10px;
-    
-    }
-
-   
-}
-
 .about {
 
-    height: 60vh;
+    height: 100vh;
     background-color: #dddd;
     margin: 50px auto;
     width: 90%;
@@ -182,13 +139,11 @@ tr:hover {
 
 .paginacao {
 
-    
     display: flex;
     justify-content: center;
     width: 40%;
     margin: 50px auto;
     
-   
 }
 
 .pag  {
@@ -357,8 +312,8 @@ h1 {
     border-radius: 10px;
     margin: 10px;
     display:flex;
-    justify-content: center
-    ;
+    justify-content: center;
+    
     
 }
 
@@ -375,4 +330,74 @@ h1 {
     font-size: 20px;
     background-color: rgb(226, 13, 13);
     
+}
+
+@media(max-width:640px) {
+
+
+    .nav-item {
+
+        display: none;
+
+    }
+    
+    .prod {
+
+        
+        width: 20px;
+        height: 10px;
+        padding: 100px;
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+       
+    }
+    
+    .img {
+
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top:0;
+        left: 0;
+        border-radius: 10px;
+    
+    }
+}
+
+@media(max-width:640px) {
+
+    .dashboard {
+
+        display: block;
+        height: ;
+    
+    }
+
+    .dash1, .dash2, .dash3, .dash4 {
+
+        display: flex;
+        justify-content: center;
+        width: 0;
+        font-size: 30px;
+    }
+    .dash-textoh1 {
+
+        color: white;
+        font-size: 40px;
+        
+    }
+    .dash-textoh3 {
+
+        color: white;
+        font-size: 20px;;
+        
+    }
+
+    .paginacao {
+
+       
+        width: 100%;
+        
+    }
 }
