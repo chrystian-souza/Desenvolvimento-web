@@ -29,21 +29,15 @@
 .nav-menu {
 
     display: flex;
-    gap: 30px;
+    gap: 20px;
     
 }
 
-.nav-item {
-
-    
-    position: relative;
-    right: 450px;
-   
-}
 
 .nav-link {
 
     color: white;
+    margin: 0;
    
 }
 
@@ -56,23 +50,7 @@
     border-radius: 12px 0 12px 0;
 }
 
-.icones-nav {
 
-   position: absolute;
-   
-  
-}
-
-.icone-nav {
-
-    background-color: rgb(145, 255, 0);
-    color: white;
-    right: 50px;
-    padding: 5px;
-    
-
-
-}
 .pag-inicial {
 
     
@@ -414,6 +392,12 @@ h1 {
     .bi-arrow-up-circle-fill {
 
        display: none;
+    }
+
+    .icones-nav {
+
+        display: none;
+      
     }
 }
 
