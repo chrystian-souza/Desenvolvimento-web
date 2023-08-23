@@ -21,7 +21,7 @@
 
 .icones-nav2 {
 
-    background-color: red;
+    gap: 20px;
     padding: 10px;
     display: flex;
     color: #ddd;
