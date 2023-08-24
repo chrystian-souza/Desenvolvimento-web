@@ -1,0 +1,69 @@
+* {                    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav {
+
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+    
+}
+
+.pai {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+
+.caixas {
+
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+.caixa {
+
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+
+    background-color: yellow;
+    width: 78%;
+    height: 400px;
+    margin: 20px;
+}
+
+/* footer {
+
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin: 20px; */
+
+}
+
+aside {
+
+    background-color: aqua;
+    width: 100px;
+    height: 50%;
+  
+}
