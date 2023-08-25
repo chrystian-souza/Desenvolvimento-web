@@ -32,7 +32,7 @@
 
 header {
 
-    grid-area: header;
+    grid-area: header;  
     background-color: rgb(159, 159, 165);
 }
 aside {
