@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
    
 }
 
@@ -60,18 +61,42 @@ footer {
 
     grid-area: footer;
     display: grid;
-    background:linear-gradient(to left , rgba(41, 79, 247, 0.514), rgba(233, 0, 214, 0.445));
+    background:linear-gradient(to left , rgba(11, 176, 241, 0.573), rgb(233, 3, 191));
     height: 60px;
     color: white;
 }
 
 .inicio-buscar {
 
-    background-color: aliceblue;
+    background-color: rgb(31, 140, 234);
     grid-area: inicio-buscar;
     border-radius: 10px;
+    display: grid;
+    padding-left: 30px;
+    padding-top: 25px;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    grid-template-areas:
+
+    "material-symbols-outlined" 
+    "material-symbols-outlined"
+   
+    ;
+    
+}
+
+.inicio-buscar a {
+
+    color: black;
+    grid-area: material-symbols-outlined;
+    font-size: 30px;
+   
    
     
+   
+    
+
+
 }
 
 .box {
