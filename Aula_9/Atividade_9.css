@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
    
 }
 
@@ -25,7 +26,6 @@ grid-template-areas:
 header {
 
     grid-area: header;
-    display: grid;
     background-color:  #121212;
     height: 60px;
     color: white;
@@ -36,9 +36,44 @@ main {
 
     grid-area: main;
     display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto auto;
+    padding: 30px;
+    gap: 15px;
     background-color: #121212;
     color: white;
+
+ 
+
 }
+
+.conteudo-main {
+
+    background-color:#202020;
+    height: 280px;
+    border-radius: 10px; 
+
+}
+ .paragrafo-topo {
+
+    grid-area: 1 / 1 / 2 / 8;
+   
+ }
+
+ .paragrafo-meio {
+
+    grid-area: 3 / 1 / 4 / 8;;
+ }
+
+ a {
+
+    color: white;
+ }
+
+ a:hover {
+
+    text-decoration: underline;
+ }
 
 aside {
 
@@ -64,6 +99,7 @@ footer {
     background:linear-gradient(to left , rgba(11, 176, 241, 0.573), rgb(233, 3, 191));
     height: 60px;
     color: white;
+   
 }
 
 .inicio-buscar {
@@ -72,10 +108,10 @@ footer {
     grid-area: inicio-buscar;
     border-radius: 10px;
     display: grid;
-    padding-left: 30px;
-    padding-top: 25px;
-    grid-template-rows: auto auto;
-    gap: 10px;
+    /* padding-left: 30px;
+    padding-top: 25px; */
+    /* grid-template-rows: auto auto; */
+    /* gap: 10px; */
     grid-template-areas:
 
     "material-symbols-outlined" 
@@ -90,12 +126,9 @@ footer {
     color: black;
     grid-area: material-symbols-outlined;
     font-size: 30px;
-   
-   
+  
     
    
-    
-
 
 }
 
@@ -103,6 +136,7 @@ footer {
 
     background-color: red;
     grid-area: box;
+    border-radius: 10px;
 }
    
     
