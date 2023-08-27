@@ -13,7 +13,7 @@ display: grid;
 height: 100vh;
 background-color:black;
 grid-template-columns: 2fr 8fr;
-grid-template-rows:  0.2fr 5fr;
+grid-template-rows:  0.3fr 5fr;
 gap: 10PX;
 padding: 10px;
 grid-template-areas: 
@@ -49,9 +49,17 @@ main {
 
 .conteudo-main {
 
+    position: relative;
     background-color:#202020;
     height: 280px;
     border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+    
+    
+    
 
 }
  .paragrafo-topo {
@@ -81,13 +89,15 @@ aside {
     display: grid;
     background-color: #121212;
     color: white;
-    grid-template-rows: 2fr 8fr;
+    grid-template-rows: repeat(5, 1fr);
     gap: 10px;
     border-radius: 10px;
     grid-template-areas: 
     
-    "inicio-buscar"
-    "box"
+    "box1"
+    "boxes"
+    "box2"
+    "box3"
     ;
     
 }
@@ -102,42 +112,49 @@ footer {
    
 }
 
-.inicio-buscar {
+.box1 {
 
-    background-color: rgb(31, 140, 234);
-    grid-area: inicio-buscar;
+    background-color: #121212;
+    grid-area: box1;
     border-radius: 10px;
     display: grid;
-    /* padding-left: 30px;
-    padding-top: 25px; */
-    /* grid-template-rows: auto auto; */
-    /* gap: 10px; */
-    grid-template-areas:
+    grid-template-rows: auto auto;
+    align-items: center;
+    padding-left: 20px;
+    
 
-    "material-symbols-outlined" 
-    "material-symbols-outlined"
-   
     ;
     
 }
 
-.inicio-buscar a {
+.box1 a {
 
-    color: black;
-    grid-area: material-symbols-outlined;
     font-size: 30px;
-  
-    
-   
-
+    color: #696666;
 }
 
-.box {
+.box2 {
 
     background-color: red;
-    grid-area: box;
+    grid-area: box2;
     border-radius: 10px;
 }
-   
-    
+
+.box3 {
+
+    background-color: red;
+    grid-area: box3;
+    border-radius: 10px;
+}
+
+.imagens {
+
+    display: flex;
+    padding: 10px auto 10px auto;
+    border-radius: 10px;
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+
+}
 
