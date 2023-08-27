@@ -12,12 +12,12 @@
 display: grid;
 height: 100vh;
 background-color:black;
-grid-template-columns: 2fr 8fr;
-grid-template-rows:  0.3fr 5fr;
+grid-template-columns: 1.5fr 8fr;
+grid-template-rows: 1fr 5fr;
 gap: 10PX;
-padding: 10px;
+padding: 15px;
 grid-template-areas: 
-"aside header"  /*linhas e colunas do grid */
+"box1 header"  
 "aside main"
 "footer footer"; 
 
@@ -27,7 +27,7 @@ header {
 
     grid-area: header;
     background-color:  #121212;
-    height: 60px;
+    height: 70px;
     color: white;
 }
 
@@ -94,8 +94,6 @@ aside {
     border-radius: 10px;
     grid-template-areas: 
     
-    "box1"
-    "boxes"
     "box2"
     "box3"
     ;
@@ -111,21 +109,21 @@ footer {
     color: white;
    
 }
-
 .box1 {
 
     background-color: #121212;
     grid-area: box1;
-    border-radius: 10px;
+    border-radius: 15px;
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1rf 1fr;
     align-items: center;
     padding-left: 20px;
     
-
+   
+    
     ;
     
-}
+
 
 .box1 a {
 
@@ -156,5 +154,4 @@ footer {
     height: 150px; 
     overflow: hidden; 
 
-}
-
+};
