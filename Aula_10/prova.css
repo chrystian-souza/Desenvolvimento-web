@@ -1,0 +1,174 @@
+/* * {                    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+header{
+    background: url(./imagens/london.jpg);
+    height: 800px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    padding: 10px 2%;
+    justify-content: space-between;
+    width: 100%;
+    color: orangered;
+    font-size: 22px;
+}
+
+.travel{
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.travel-options{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.icon-travel{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5px;
+}
+
+.icon-travel:hover{
+    background-color: orangered;
+}
+
+.pai-travel2{
+
+    display: flex;
+    background-color: yellow;
+
+}
+
+.travel2 {
+
+    background-color: red;
+   
+}
+
+.botao-nav {
+
+    background-color: blue;
+   
+}
+
+.sessao1 {
+
+    background-color: #ddd;
+    width: 90%;
+    height: 100vh;
+    max-width: 2000px;
+    margin: 50px auto;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-areas:
+     
+    
+    "img-sessao1 img-sessao1 img-sessao2 img-sessao3"
+    "img-sessao1 img-sessao1 img-sessao2 img-sessao3"
+    
+    ;
+
+    
+
+}
+
+.img1-sessao1 {
+
+
+    grid-area: img-sessao1;
+
+}
+
+.img1 {
+
+    width: 100%;
+    height: 100%;
+}
+
+.img-sessao1 {
+
+    /* background-color: black; */
+}
+
+.descricao-sessoes {
+
+  
+    color: black;
+    margin: 20px 80px 0px 80px;
+}
+
+h5 {
+
+    margin-top: 30px;
+}
+
+.sessao2 {
+
+    background-color: #ddd;
+    width: 90%;
+    height: 100vh;
+    max-width: 2000px;
+    margin: 50px auto;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 20px;
+    grid-template-areas:
+     
+    
+    "img-ocean img-ocean" 
+    
+    
+    ; 
+
+
+}
+
+.img2 {
+
+    grid-area: img-ocean;
+    width: 100%;
+    height: 100%;
+}
+
+
