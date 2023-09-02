@@ -13,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway';
+    list-style: none;
 }
 
 header{
@@ -69,23 +70,58 @@ header{
     background-color: orangered;
 }
 
-.pai-travel2{
+.text-travel {
+
+    margin: 80px 20px 0px 10px;
+    padding: 10px;
+    
+}
+
+h1 {
+
+    font-weight: normal;
+}
+
+.itens-travel{
 
     display: flex;
-    background-color: yellow;
-
+    /* background-color: rgb(199, 199, 32); */
+    height: 30%;
+    margin: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
 }
 
-.travel2 {
+.from-to {
 
-    background-color: red;
-   
+    width: 100%;
+    
 }
+ 
+input {
+
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(133, 133, 133);
+    height: 40px;
+ }
 
 .botao-nav {
 
-    background-color: blue;
+    margin: 20px 20px;
    
+}
+
+.botao-nav > button {
+
+    color: white;
+    background-color: rgb(54, 53, 53);
+    margin-top: 0;
+    margin-left: 0;
+    padding: 20px 50px;
+    cursor: pointer;
 }
 
 .sessao1 {
