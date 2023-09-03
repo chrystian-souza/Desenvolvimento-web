@@ -71,10 +71,6 @@ header{
     gap: 5px;
 }
 
-.icon-travel:hover{
-    background-color: orangered;
-}
-
 .text-travel {
 
     margin: 80px 20px 0px 10px;
@@ -115,11 +111,7 @@ input {
     padding: 10px ;
  }
 
- .botao-nav:hover {
-
-    background-color: orangered;
- }
-
+ 
 .div-botao-nav {
 
     margin: 20px 20px;
@@ -296,10 +288,11 @@ h5 {
 
   .form-email > button {
 
-    background-color: orangered;
+    background-color: black;
     margin: 10px;
     color: white;
     padding: 10px 30px;
+    cursor: pointer;
   }
 
  .pai-footer {
@@ -310,6 +303,9 @@ h5 {
     padding: 50px;
     margin: 0;
     padding: 0px 90px;
+    display: flex;
+    flex-direction: column;
+    
    
 
  }
@@ -350,12 +346,38 @@ h5 {
     background-color: black;
     color: white;
     padding: 10px 25px;
+    cursor: pointer;
  }
 
  .form-footer > i {
 
    padding: 15px;
  }
+
+button:hover {
+
+    background-color: orangered;
+
+    }
+
+.final-footer {
+
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info-final-footer {
+
+    height: 10vh;
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
+
+    
   /* @media(max-width:920px) {
 
     
