@@ -71,6 +71,13 @@ header{
     gap: 5px;
 }
 
+ .icon-travel:hover {
+
+    background-color: orangered;
+
+
+}
+
 .text-travel {
 
     margin: 80px 20px 0px 10px;
@@ -187,9 +194,17 @@ h5 {
     margin-top: 30px;
 }
 
+.img1-sessao2 {
+
+    background-color: blue;
+    display: flex;
+   
+}
+
 .info-img1-sessao2 {
 
     background-color: red;
+    
 
 }
 
@@ -213,11 +228,14 @@ h5 {
   width: 100%;
   height: 100%;
   
+  
 }
 
 .info-img-sessao2 {
   width: 100%; 
   height: 60%;
+  
+  
   
 }
 
@@ -232,6 +250,7 @@ h5 {
     margin: 0;
     width: 100%;
     height: 40%;
+   
   }
   
   .txt-sessao2 > h1 , p {
