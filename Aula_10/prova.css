@@ -138,10 +138,7 @@ input {
 .sessao1 {
 
     background-color: #ddd;
-    width: 100%;
     height: 60vh;
-    max-width: 2000px;
-    /* margin: 20px auto; */
     padding: 0px 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -212,9 +209,7 @@ h5 {
 
    
     background-color: #ddd;
-    width: 100%;
     height: 60vh;
-    max-width: 2000px;
     margin: 0px auto;
     padding: 0px 100px;
     display: grid;
@@ -269,8 +264,6 @@ h5 {
   .sessao3 {
 
     background-color: rgb(92, 89, 89);
-    width: 90%;
-    max-width: 2000px;
     height: 30vh;
     margin: 50px 90px 50px 95px;
     padding: 40px;
@@ -397,11 +390,17 @@ button:hover {
 }
 
     
-  /* @media(max-width:920px) {
+   @media(max-width:920px) {
+
+    .sessao1 {
+
+        flex-wrap: wrap;
+        
+    }
 
     
   }
-   */
+   
   
   
   
