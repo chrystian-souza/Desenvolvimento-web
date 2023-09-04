@@ -425,7 +425,8 @@ button:hover {
 }
 
     
-   @media(max-width:320px) {
+   @media(max-width:320px) {  /*Caio, tentei fazer a responsividade mas não deu tempo, 
+    só consegui trabalhar no código no sábado, no domingo tinha compromisso pro dia todo*/
 
 
     .sessao2{
