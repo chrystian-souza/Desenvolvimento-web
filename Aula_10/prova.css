@@ -137,6 +137,7 @@ input {
 
 .sessao1 {
 
+    position: relative;
     background-color: #ddd;
     height: 60vh;
     padding: 0px 100px;
@@ -160,14 +161,48 @@ input {
 
 
     grid-area: img-sessao1;
+    position: relative;
+
+}
+
+ .img2-sessao1, .img3-sessao1, .img4-sessao1, .img5-sessao1 { 
+
+  position:relative;
+
+}
+
+.txt-img1 {
+
+         
+  position: absolute;
+  top: 92%; 
+  left: 2%; 
+  color: white;
+  padding: 10px; 
+
+}
+
+.txt-img2345 {
+
+  position: absolute;
+  top: 86%; 
+  left: 2%; 
+  color: white;
+  padding: 10px;
 
 }
 
 .img1 {
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
 }
+
+
+
+
 
 .descricao-sessao1 {
 
@@ -411,15 +446,16 @@ button:hover {
     .sessao1 {
 
 
-            position: relative;
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            font-size: 5px;
-            margin: 0;
-            padding: 0;
-            background-color: red;
-            flex-wrap: wrap;
+          position: relative;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          font-size: 5px;
+          margin: 0;
+          padding: 0;
+          background-color: red;
+          flex-wrap: wrap;
+            
     
     
         }
