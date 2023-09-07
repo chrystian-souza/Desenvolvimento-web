@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.card {
+
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+   
+    animation: changecolor 6s infinite;
+
+}
+
+@keyframes changecolor {
+
+    0% {
+        background-color: blue;
+        background: url("https://source.unsplash.com/400x400/?feijão");
+    }
+    25% {
+        background-color: red;
+        background: url("https://source.unsplash.com/400x400/?arroz");
+    }
+    75% {
+        background-color: blue;
+        background: url("https://source.unsplash.com/400x400/?batata");
+    }
+       
+    100% {
+        background-color: red;
+        background: url("https://source.unsplash.com/400x400/?água");
+    }
+
+
+}
+
+.card2 {
+
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    border-radius: 50%;
+    border: 5px solid rgba(224, 223, 223, 0.534);
+    border-top: 5px solid blue;
+    animation:spin 2s infinite linear;
+
+}
+
+@keyframes spin {
+
+    100% { 
+
+        rotate: 360deg;
+        
+       
+       
+       
+       
+        
+    }
+    25% {
+       
+       
+      
+       
+        
+    }
+}
