@@ -4,4 +4,12 @@
     
     
 }
+.cor > ul > li > a {
 
+    color: white !important;
+}
+
+.vermelho {
+
+    background-color: red;
+}
