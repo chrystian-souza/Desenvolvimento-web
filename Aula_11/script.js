@@ -117,9 +117,14 @@
 
 carros = [
 
-    ['Ford', 2, true]
-    ['Volvo', 5, false]
-    ['Ferrari', 2, false]
-    ['Tesla', 4, false]
-    ['Chevrolet', 1, true]
+    ['Ford', 2, true],
+    ['Volvo', 5, false],
+    ['Ferrari', 2, false],
+    ['Tesla', 4, false],
+    ['Chevrolet', 1, true],
 ]
+
+console.log(carros[0][0]);       
+
+
+
