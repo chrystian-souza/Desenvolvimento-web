@@ -115,16 +115,103 @@
 // D - Uma lista com todos os carros estacionados
 
 
-carros = [
+// carros = [
 
-    ['Ford', 2, true],
-    ['Volvo', 5, false],
-    ['Ferrari', 2, false],
-    ['Tesla', 4, false],
-    ['Chevrolet', 1, true],
-]
+//     ['Ford', 2, true],
+//     ['Volvo', 5, false],
+//     ['Ferrari', 2, false],
+//     ['Tesla', 4, false],
+//     ['Chevrolet', 1, true],
+// ]
 
-console.log(carros[0][0]);       
+// for(let x = 0; x < carros.length; x++) {
+
+//     let nomeCarros = carros[x][0];
+//     console.log(nomeCarros.toUpperCase());
+// }
+
+// for(let x = 0; x < carros.length; x++) {
+
+//     let nomeCarros = carros[x][2];
+//     if(nomeCarros === true) {
+//         let soma = x + 5
+//         console.log(soma);
+
+//     }
+
+// }
+   
+// console.log(carros[0][0]);       
+// console.log(carros[1][0]);       
+// console.log(carros[2][0]);       
+// console.log(carros[3][0]);       
+// console.log(carros[4][0]);       
+
+// let lista = [1,2,3,4,5,6,7,8,9,10]
+// let quadrado = lista.map((numero)=> numero*numero)
+// console.log(quadrado);
+
+// let produtos = ['Carro', 'Moto', 'Bicicleta', 'Batera']
+// let novonome = produtos.map((produto)=> produto + 'Novo') // Alteração dentro de cada elemento
+// console.log(novonome);
+
+// let produtos = ['Carro', 2, 'Bicicleta', 'Batera']
+// // let filtro = produtos.filter((produto)=> produto === 'Moto') // ou
+// let filtro = produtos.filter((produto) => {
+//     return produto == 'Carro';
+    
+// });
+
+// console.log(filtro);
 
 
+// Atividade: 
+
+//A - Exibir uma lista de todos os nomes do carro em caixa alta
+// B - O nome de todos os carros mais ou igual a 3 passageiros
+// C - Exibir o numero da vaga de cada carro estacionada
+// D - Uma lista com todos os carros estacionados
+
+// carros = [
+
+//         ['Ford', 2, true],
+//         ['Volvo', 5, false],
+//         ['Ferrari', 3, false],
+//         ['Tesla', 4, false],
+//         ['Chevrolet', 1, true],
+//     ]
+    
+
+// let maiusculo = carros.map((nome) =>nome[0].toUpperCase())
+// let passageiros = carros.filter((carro)=> carro[1] >= 3).map((nomecarro)=>nomecarro[0])
+// let estacionado = carros.filter((carro)=>carro[2] == true).map((nomecarro)=>nomecarro[0])
+// console.log(maiusculo);
+// console.log(passageiros)
+// console.log(estacionado);
+
+
+// Atividade
+// A: Um array contendo todas as notas
+// B: O nome dos alunos com a nota emcima da media
+
+const students = [
+    {nome: 'Alice', nota: 85},
+    {nome: 'Bob', nota: 72},
+    {nome: 'Charlie', nota: 90},
+    {nome: 'David', nota: 65},
+    {nome: 'Eve', nota: 88},
+];
+
+let notas = students.map((nota)=>nota.nota)
+let alunos= students.map((alunos)=>alunos.nome)
+let media = notas.map((notas)=> notas 
+
+  
+    
+
+)
+
+// console.log(notas)
+// console.log(alunos)
+console.log(media)
 
